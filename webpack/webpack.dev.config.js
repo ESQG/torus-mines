@@ -14,11 +14,11 @@ module.exports = {
 		]
 	},
   output: {
-    path: __dirname + '/build',
+    path: path.join(__dirname, '../build'),
     filename: 'bundle.js'
   },
   devServer: {
-    contentBase: __dirname + '/build',
+    contentBase: path.join(__dirname, '../build'),
     historyApiFallback: true
   }
 }
