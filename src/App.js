@@ -7,9 +7,9 @@ const BOARD_HEIGHT = 10;
 
 export default class App extends Component {
     render () {
-        return <p>Rendered by React if working. <br />
+        return <div><p>Rendered by React if working.</p>
 			<Game />
-        </p>
+        </div>
     }
 }
 
@@ -43,7 +43,9 @@ class Game extends Component {
 
 	render() {
 		return <table className="board">
+		<tbody>
 			{this.state.boardInfo.map(this.renderRow)}
+			</tbody>
 		</table>;
 	}
 

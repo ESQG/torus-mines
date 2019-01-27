@@ -1,0 +1,14 @@
+button.square {
+    height: 15px;
+    width: 15px;
+    color:green;
+}
+
+table.board {
+    border: 2px solid black;
+    border-collapse: collapse;
+}
+
+table.board td {
+    border: 1px solid grey;
+}
